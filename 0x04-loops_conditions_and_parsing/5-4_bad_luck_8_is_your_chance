@@ -2,12 +2,12 @@
 # Bash script that loops from 1 to 10.
 
 i=0
-while [ $i -lt 10 ]
+while [ $i -le 10 ]
 do
-if [$i -eq 3]
+if [$i -eq 4]
 then
 	echo "bad luck"
-elif [$i -eq 7]
+elif [$i -eq 8]
 then
 	echo "good luck"
 else
