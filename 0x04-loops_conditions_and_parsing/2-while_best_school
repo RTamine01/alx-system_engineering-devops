@@ -2,8 +2,8 @@
 # Bash script that displays Best School 10 times.
 
 rep=0
-while [ rep -lt 10 ]
+while [ $rep -lt 10 ]
 do
 	echo "Best School"
-	let rep=rep+1
+	rep=$(( rep+1 ))
 done
